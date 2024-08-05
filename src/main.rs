@@ -25,8 +25,11 @@ fn hello(name: &str) -> String {
 
 #[launch]
 fn rocket() -> _ {
-    rocket::build().mount("/", routes![index, world, delay, hello])
+    rocket::build()
+        .mount("/", routes![index, world, delay, hello])
 }
+
+
 
 #[cfg(test)]
 mod tests {
