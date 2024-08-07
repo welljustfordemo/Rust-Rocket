@@ -16,3 +16,6 @@ address = "0.0.0.0"
 port = 8000
 log_level = "critical"
 secret_key = "your-release-secret-key"
+
+[default.databases]
+my_db = { url = "postgres://user:user_password@localhost/my_database" }
