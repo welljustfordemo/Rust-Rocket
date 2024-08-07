@@ -9,7 +9,7 @@ Steps:
 
 # How to Integrate Diesel Database
 **NOTICE:** Make sure you setup the database first , in my case , I use docker-compose to setup the database
-```shell
+
 1. Set up these in `Cargo.toml`
 ```toml
 [dependencies]
